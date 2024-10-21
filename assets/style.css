@@ -136,7 +136,7 @@ nav ul li a{
   width: 251px;
   height: 154px;
   padding: 26px 30px;
- 
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.07);
 }
 .card-life h2{
   font-size: 18px;
@@ -310,6 +310,7 @@ nav ul li a{
 .price{
   background: #FAFAFA;
  padding-top: 50px;
+padding-bottom: 50px;
 }
 .text-price{
 
@@ -428,7 +429,6 @@ nav ul li a{
 }
 /* contact-2 */
 .contact-2{
-  margin-top: 50px;
   background: #252B42;
   height: 620px;
 }
@@ -515,4 +515,92 @@ nav ul li a{
   font-weight: bold;
   font-size: 10px;
   cursor: pointer;
+}
+/* constult */
+.consult{
+  background: #FAFAFA;
+  margin-top: 240px;
+}
+.text-consult{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-consult h2{
+  font-size: 18px;
+  color: #252B42;
+  font-weight: bold;
+}
+.text-consult p{
+  font-size: 10px;
+  color: #737373;
+}
+.btn-contact-us{
+  width: 122px;
+  height: 40px;
+  background: #23A6F0;
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* footer */
+.columns{
+  margin-top: 20px;
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  justify-content: center;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.col h2{
+  margin-bottom: 7px;
+  font-size: 12px;
+  color: #252B42;
+  font-weight: bold;
+}
+.col p{
+  font-size: 10px;
+  font-weight: 600;
+  color: #737373;
+}
+.phone{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.point{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.mail{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+/* final */
+.final{
+  margin-top: 20px;
+  background: #FAFAFA;
+}
+.final-2{
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+  color: #737373;
+}
+.logoypes-eng{
+  display: flex;
+  gap: 15px;
 }
