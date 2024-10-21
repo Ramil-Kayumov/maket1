@@ -1,12 +1,21 @@
 @media (min-width: 0px) and (max-width: 330px) { 
   header{
-    background-color: white ;
+    background: white ;
     width: 100%;
     height: 40px;
     z-index: 999;
   }
+  
   nav, .log-in{
     display: none;
+  }
+  .menu{
+    display: block;
+    cursor: pointer;
+  }
+  .menus{
+    display: flex;
+    gap: 20px;
   }
   .container{
     padding: 1px;
@@ -52,5 +61,103 @@
   .logotypes{
     flex-direction: column;
     gap: 20px;
+  }
+  /* contact */
+  .bg-info{
+    width: 317px;
+    height: 162px;
+    display: block;
+  }
+  .bg-info p{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .buttons-submit {
+    width: 238px;
+  }
+  .buttons-submit input{
+    width: 168px
+  }
+  .buttons-submit button{
+    width: 90px;
+  }
+  /* pricing */
+  .cards-price{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+ 
+  /* contact-2 */
+  .map{
+    flex-direction: column;
+    display: block;
+   
+  }
+ 
+  .map .text{
+    width: 240px;
+    margin: 0 auto;
+  }
+  .map h2{
+    margin: 0;
+    margin-top: 50px;
+  }
+  .map p{
+    margin-bottom: 40px;
+  }
+  .map img{
+    padding-left: 20px;
+    margin-top: 60px;
+    width: 240px;
+    height: 120px;
+  }
+  .contact-2-info{
+    display: block;
+  }
+  .contact-2-info .right{
+    display: block;
+    width: 317px;
+    height: 533px;
+    
+  }
+  .contact-2-info .left{
+    background-image: url(./img/negr2.png);
+  background-repeat: no-repeat;
+  width: 317px;
+  height: 198px;
+  }
+  .inputs input{
+    width: 238px;
+  }
+  .btn-submit-2{
+    margin-top: 20px;
+    width: 240px;
+  }
+  /* сonsult */
+  .text-consult{
+    flex-direction: column;
+    gap: 40px;
+  }
+  .consult{
+    width: 317px;
+    height: 231px;
+    margin: 0;
+    margin-top: 470px;
+  }
+  .text-consult .left-2{
+    text-align: center;
+  }
+  .text-consult .left-2 p{
+    margin-top: 20px;
+  }
+  /* footer */
+  .columns{
+    flex-direction: column;
+    align-items: start;
+    padding-left: 60px;
+  }
+  .final-2{
+    flex-direction: column;
   }
  }
