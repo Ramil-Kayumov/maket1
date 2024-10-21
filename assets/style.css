@@ -426,3 +426,93 @@ nav ul li a{
   font-size: 10px;
   text-align: left;
 }
+/* contact-2 */
+.contact-2{
+  margin-top: 50px;
+  background: #252B42;
+  height: 620px;
+}
+.map{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.map .text{
+  width: 460px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.map h2{
+  margin-left: -120px;
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.map p{
+  text-align: left;
+  color: white;
+  font-size: 10px;
+  font-weight: medium;
+}
+.contact-2-info{
+  margin: 0 auto;
+  width: 679px;
+  height: 468px;
+  background: white;
+  display: flex;
+}
+.contact-2-info .left{
+  background-image: url(./img/negr.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 208px;
+  height: 468px;
+}
+.contact-2-info .right{
+  width: 468px;
+  height: 468px;
+  padding: 31px 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+}
+.right h3{
+  margin: 10px auto;
+  font-size: 18px;
+  color: #252B42;
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.input p{
+  font-size: 10px;
+  font-weight: 600;
+  color: #252B42;
+  margin-bottom: 7px;
+}
+.input input{
+  outline: none;
+  border-radius: 4px;
+  padding: 0 16px;
+  width: 368px;
+  height: 38px;
+  background: #F9F9F9;
+  border: 1px solid #E6E6E6;
+}
+.btn-submit-2{
+  width: 391px;
+  height: 40px;
+  background: #23A6F0;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  cursor: pointer;
+}
