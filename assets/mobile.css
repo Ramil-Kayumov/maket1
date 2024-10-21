@@ -1,0 +1,56 @@
+@media (min-width: 0px) and (max-width: 330px) { 
+  header{
+    background-color: white ;
+    width: 100%;
+    height: 40px;
+    z-index: 999;
+  }
+  nav, .log-in{
+    display: none;
+  }
+  .container{
+    padding: 1px;
+  max-width: 317px;
+  margin: 0 auto;
+  }
+  /* hero */
+  .hero{
+    justify-content: start;
+    height: 1200px;
+  }
+  .text-center{
+    padding-top: 90px;
+  }
+  .text-center h1{
+    
+    font-size: 30px;
+    text-align: center;
+  }
+  .text-center p{
+    font-size: 16px;
+  }
+  .buttons{
+    flex-direction: column;
+  }
+  .cards-life{
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .features{
+    flex-direction: column;
+    margin-top: 90px;
+  }
+  .sotrydniki{
+    margin-top: 110px;
+  }
+  .cards-st{
+    flex-direction: column;
+  }
+  .contact{
+    margin-top: 600px;
+  }
+  .logotypes{
+    flex-direction: column;
+    gap: 20px;
+  }
+ }
